@@ -1,6 +1,6 @@
 ## XLMS_decoyFusion
 
 Scripts, functions and raw-data associated with the Manuscript 
-"Enhancing Coverage in Cross-Linking Mass Spectrometry through Context-Sensitive Subgrouping and Decoy Fusion"
+"Redesigning error control in cross-linking mass spectrometry enables more robust and sensitive protein-protein interaction studies"
 
-Boris Bogdanow, Cong Wang, Max Ruwolt, Julia Ruta, Lars Mühlberg, Wen-feng Zeng, Arne Elofsson, Fan Liu
+Boris Bogdanow, Max Ruwolt, Julia Ruta, Lars Mühlberg, Cong Wang, Wen-feng Zeng, Arne Elofsson, Fan Liu
