@@ -1,1 +1,0 @@
-lzipf <- function(s,N) -s*log(1:N)-log(sum(1/(1:N)^s))
