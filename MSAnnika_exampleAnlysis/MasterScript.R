@@ -30,8 +30,9 @@ CSMs <- subset(CSMs,CSMs$Crosslink.Type == "Inter")
 
 ### define targets and decoys
 CSMs$targettarget <- CSMs$Accession.A != "" & CSMs$Accession.B != ""
-CSMs$targetdecoy <- CSMs$Accession.A == "" | CSMs$Accession.B == ""
 CSMs$decoydecoy <- CSMs$Accession.A == "" & CSMs$Accession.B == ""
+CSMs$targetdecoy <- (CSMs$Accession.A == "" | CSMs$Accession.B == "") & !CSMs$decoydecoy
+
 
 ### give a unique ID to CSMs
 CSMs$ID <- rownames(CSMs)
